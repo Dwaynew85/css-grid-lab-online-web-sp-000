@@ -25,6 +25,7 @@ body {
   grid-column-end: 4; #can be replaced with shorthand, as seen below
   grid-row-start: 2;
   grid-row-end: 4;*/
-  grid-row: 2 / 4;
-  grid-column: 2 / 4;
+  /*grid-row: 2 / 4; #ANOTHER shorthand to the shorthand is available! check below!!
+  grid-column: 2 / 4;*/ 
+  grid-area: 2 / 2 / 4 / 4;
 }
